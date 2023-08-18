@@ -1,0 +1,135 @@
+
+ header{
+   font-family:Roboto;
+   font-size:26px;
+   color:rgb(0, 0, 0);
+   font-weight:bold;
+   text-align:center;
+   margin-top:20px;
+   margin-bottom:20px;
+ }
+ 
+ #survey-form{
+   background-color:#FFFFFF;
+   font-family:Quicksand;
+   max-width:70%;
+   margin:auto;
+   padding:0;
+   border-radius:15px;
+ }
+ 
+ #description{
+   text-align:center;
+   font-size:16px;
+   padding-top:17px;
+   font-weight:bold;
+ }
+ 
+ .fieldset{
+   border-width:0;
+   padding-top:1%;
+ 
+ }
+ 
+ .sub-group{
+   position:relative;
+   right:30px;
+   display:flex;
+   justify-content:center;
+   flex-wrap:wrap;
+   padding:1%;
+ }
+ 
+ label.left{
+   width:30%;
+   padding-right:4%;
+   text-align:right;
+ }
+ 
+ 
+ .right{
+   width:30%;
+ }
+ 
+ .input-field{
+   height:20px;
+   padding:5px;
+   border: 1px solid #c0c0c0;
+   border-radius: 2px;
+ }
+ 
+ #dropdown{
+   font-family:Quicksand;
+   height:30px;
+   border: 1px solid #c0c0c0;
+   border-radius: 2px;
+ }
+ 
+ .checkbox{
+   position:relative;
+   padding:3px;
+   right:3px;
+   bottom:15px;
+ }
+ 
+ .radio{
+   position:relative;
+   padding:3px;
+   bottom:15px;
+ }
+ 
+ h2{
+   position:relative;
+   bottom:8px;
+   font-size:16px;
+   text-align:center;
+   font-weight:bold;
+ }
+ 
+ .commentbox{
+   text-align:center;
+ }
+ 
+ textarea{
+   width:65%;
+   border-radius:4px;
+ }
+ 
+ label:hover{
+   cursor:pointer;
+ }
+ 
+ @media (max-width: 800px) {
+   body {
+     font-size: 12px;
+   }
+ }
+ 
+ @media (max-width: 580px) {
+   body {
+     font-size: 9px;
+   }
+ }
+input[type=text] {
+   padding: 12px 20px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin: 4px 1px;
+
+}
+button{
+ background-color: #0b55cd;
+   border: none;
+   color: white;
+   padding: 12px 30px;
+   text-decoration: none;
+   margin: 3px 40px;
+   cursor: pointer;
+}
+
+canvas{
+ /*prevent interaction with the canvas*/
+ pointer-events:none;
+}
